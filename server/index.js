@@ -26,7 +26,7 @@ app.post('/search', function(req, res) {
 
 //Login Requests
 app.post('/login', function(req, res) {
-  console.log('hello from inside app.post /search');
+  console.log('hello from inside app.post /login');
   res.send('response from app.post /login');
 });
 
